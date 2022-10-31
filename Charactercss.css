@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+background-image: url(gradient-cimkep.png);
+}
+header{
+    background-color: #222222;
+    color: aliceblue;
+    text-align: center;
+    
+    box-sizing:border-box;
+
+    height: 100px;
+    margin: 0px 100px;
+    padding-top: 20px;
+
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+main form{
+    text-align: center ;
+}
+main form input{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+    padding: 8px;
+
+    
+
+    color: rgb(36, 77, 45);
+    border: rgb(35, 148, 86);
+    border: solid 1px rgb(80, 55, 224);
+    border-radius: 10px;
+    background-color: rgba(164, 255, 225, 0.979);
+}
+main {
+    
+    box-sizing: border-box;
+    min-height: 600px;
+    
+    
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    box-shadow: 
+    10px 10px 20px 10px gray;
+
+    background-color: lightgray;
+
+}
+#gender{
+    border-radius: 10px;
+    border-color: darkblue;
+    background-color:rgba(91, 233, 186, 0.979);
+}
+#cheight{
+    border: darkblue;
+    border-radius: 5px;
+    background-color: gray;
+}
+form {
+    text-align: left;
+    background-image: url("aqua-blue-gradient-background.jpg");
+    background-repeat: no-repeat;
+    
+    
+}
+
+h2 {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    text-align: left;
+    
+
+}
+#szarmazas{
+    border-radius: 10px;
+    border-color: darkblue;
+    background-color:rgba(91, 233, 186, 0.979);
+}
+
+
+
+

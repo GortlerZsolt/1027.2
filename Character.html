@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Charactercss.css" type="text/css">
+    <title>Karater készítés</title>
+
+</head>
+
+<body>
+
+    <Header>
+        <h1>Milyen legyen a karaktered?</h1>
+    </Header>    
+        
+    <main>
+        <div id="div1">
+        <h2>Tuladonságai : </h2>
+        <form action="">
+            <h3>Neve</h3>
+            <input type="text" name="character_name" id="cname" placeholder="Karakter neve">
+
+            <br>
+            <br><br>
+           
+        
+                <h3>Nem</h3>
+                <select name="gender" size=”3” id="gender"style="font-family: 'Courier New', Courier, monospace; font-size:large; ">
+                   <option value="Woman">Nő</option>
+                   <option value="Man">Férfi</option>
+                   <option value="" selected disabled>Nem(♂ / ♀)</option>                   
+                </select>
+            
+                
+            <br><br>
+            <br>
+            
+            <h3>Magssága</h3>
+            <input type="number" name="character_height" id="cheigh" placeholder="Magasága(cm)">
+
+            <br><br><br>
+            <h3>Súlya</h3>
+            <input type="number" name="character_weiht" id="cweight"
+            placeholder="Súlya(kg)">
+            
+            <br><br><br>
+            
+            
+                <h3>Származása</h3>
+                   <select name="szarmazas" size=”3” id="szarmazas"style="font-family: 'Courier New', Courier, monospace; font-size:large;">
+                    <option value="Usa">Amerika</option>
+                    <option value="Europe">Európa</option>
+                    <option value="Asia">Ásia</option>
+                    <option value="" selected disabled>Származás</option>                   
+                 </select>       
+                 
+            <br><br>
+            <br>
+            <h6></h6>
+            <h3>Születési dátuma</h3>
+            <input type="date" id="age">
+            
+            
+            </form>
+            <input type="submit" value="Mentés" id="Submit"  >
+    </div>
+       
+    <div id="div2">
+            <h3>Leírás</h3>
+            <input type="text" id="description">
+        </div>
+        </main>
+    
+</body>
+
+
+
+</html>
